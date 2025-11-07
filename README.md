@@ -1,205 +1,142 @@
-```markdown
-<p align="center">
-  <img src="assets/tango-logo.png" alt="Tango Logo" width="140" />
-  &nbsp;&nbsp;
-  <img src="assets/gdpr-badge.png" alt="GDPR Compliant Badge" width="220" />
-</p>
 
-# Tango — Discord Moderation Bot
-Tango is a lightweight, privacy-first Discord moderation bot that helps server staff keep communities safe and civil. It scans messages where it has permission and performs configurable moderation actions, logging, and audits for transparency.
+# Tango — Terms of Service & Usage Policies
 
-Effective date: 2025-11-06
+![Tango logo](imgs/logo_500x500.png)
 
----
+## About Tango
+Tango is a community-focused Discord bot that provides moderation helpers, utility commands, and engagement features for servers that invite it. This document contains the Terms of Service (TOS), detailed usage policies, data storage and GDPR-related information, and contact and appeals procedures.
 
-## Quick Links
-- Invite the bot: (add your invite link here)
-- Support & data requests: https://github.com/mediumwarrior67/Tango---Terms-Of-Service-Usage-Policies/issues
-- Source & contribute: https://github.com/mediumwarrior67/Tango---Terms-Of-Service-Usage-Policies
+## Quick summary
+- Use Tango responsibly and lawfully. Server owners are responsible for configuration and moderation decisions. Misuse may result in removal of bot access or other enforcement actions.
 
----
+## Table of contents
+- Terms of Service
+- Usage Policies
+- Data collection, storage & GDPR rights
+- Moderation, enforcement & appeals
+- Contact
 
-## Key Features
-- Real-time message scanning and auto-moderation
-- Moderation commands: ban, kick, mute, warn, etc.
-- Configurable filters (profanity, spam, links, invites)
-- Short-term message logging for moderator review (14-day retention)
-- Audit logs and transparency tools
-- GDPR-aware data handling and user rights
+## Terms of Service
+1. Acceptance of Terms
+   - By inviting or using Tango you agree to these Terms of Service and to comply with applicable laws and Discord's Terms of Service. If you do not agree, do not use the bot.
 
----
+2. Definitions
+   - "Maintainers" refers to the creators/operators of Tango. "Server Owner" and "Moderators" refer to the Discord server's authorized administrators.
 
-## Installation (Quick Start)
-1. Clone the repo:
-   - git clone https://github.com/mediumwarrior67/Tango---Terms-Of-Service-Usage-Policies.git
-2. Install dependencies:
-   - npm install
-3. Create a `.env` file with your Discord bot token and configuration variables (see config.example or bot code).
-4. Create an `assets/` directory and add the provided images:
-   - assets/tango-logo.png
-   - assets/gdpr-badge.png
-5. Run the bot:
-   - npm start
+3. Permissions & Responsibility
+   - Server owners are responsible for granting Tango the minimum permissions required for the features they enable. Do not grant admin-level permissions unless necessary and you trust the configuration.
 
----
+4. Acceptable Use
+   - Allowed activities include moderation, anti-abuse protection, community engagement, information lookup, and other utilities provided by Tango when used in good faith.
 
-## Data, Privacy & Usage Policy (Terms of Service / TOS) — Summary
-By inviting Tango to your server you accept these Terms for data processing performed by the bot on that server.
+5. Prohibited Use
+   - You must not use Tango to:
+     - Harass, threaten, defame, or discriminate against individuals or groups.
+     - Publish or distribute illegal content, including but not limited to instructions facilitating wrongdoing.
+     - Upload, distribute, or link to sexually explicit content involving minors.
+     - Perform spam, phishing, credential harvesting, or other forms of automated abuse.
+     - Circumvent, disable, or abuse server moderation tools or the bot's protections.
 
-- What we collect: Discord user IDs and messages the bot can access.
-- Why we collect it: moderation, logging, and moderator review.
-- How long we store it: up to 14 days (two weeks).
-- GDPR: Tango follows GDPR principles and supports data subject requests.
+6. Enforcement & Remedies
+   - Maintainers reserve the right to suspend features, remove the bot from servers, or block users who violate these terms. For severe or illegal conduct we may report to Discord and/or law enforcement.
 
-Full details follow in the Data & Privacy section below.
+7. Intellectual Property
+   - Tango, its assets, and code are owned by the maintainers unless explicitly licensed otherwise. You may not copy or redistribute the code or branding without permission.
 
-### What data Tango collects
-- Discord user ID (for mapping actions and logs to users)
-- Message content and metadata (only from channels where the bot has read/view permission)
+8. Warranty & Liability
+   - Tango is provided "as-is". Maintainers disclaim all warranties to the extent permitted by law. Maintainers are not liable for indirect, incidental, or consequential damages arising from use.
 
-No other personal data is intentionally collected (no emails or IP addresses by the bot itself).
+9. Changes to Terms
+   - We may update these terms; continued use after changes indicates acceptance. Major updates will be announced when practical.
 
-### Purpose of collection
-- Moderation: filter policy-violating content, detect spam, and enforce rules.
-- Logging: create temporary logs for moderator review and appeals.
-- Diagnostics: minimal metadata for troubleshooting.
+## Usage Policies
+These policies explain how features should be used and what admins and members can expect.
 
-Tango will not use message content for model training, analytics, or third-party processing without explicit per-server opt-in.
+1. Rate Limits & Abuse
+   - Respect Discord rate limits and avoid automating excessive command usage. Do not implement loops or scripts that flood the bot with requests.
 
-### Retention policy
-- Messages and moderation logs are retained for up to 14 days from collection.
-- After 14 days, message contents are deleted from active storage. Audit metadata (timestamp, action, moderator, short reason) may be retained longer for accountability but will not include full message content unless required by law.
-- If required by lawful request, minimal required data may be retained; server owners will be notified where permitted.
+2. Moderation Tools
+   - Tango provides moderation features (auto-moderation, bans, mutes, logs). Server moderators retain final responsibility for enforcement actions.
+   - Automatic actions may be imperfect. Review logs and audit automated decisions before escalating.
 
-### Storage & security
-- Data is encrypted in transit and encrypted at rest where possible.
-- Access is restricted to the bot process, designated server moderators (for their server) and authorized maintainers for troubleshooting.
-- Data minimization: only data necessary for moderation is stored.
+3. Command Logging & Behavior
+   - Some commands require inspecting or temporarily storing message content (for moderation, anti-spam, or context-aware features). Where possible, storage is minimized.
 
-### GDPR and Data Subject Rights
-EU data subjects may request:
-- Access to data
-- Rectification
-- Erasure (subject to retention policy)
-- Restriction of processing
-- Data portability (where applicable)
-- To object to processing
+4. Custom Integrations & Bots
+   - If you extend Tango with custom scripts or use third-party plugins, ensure they comply with these policies and applicable laws.
 
-To exercise these rights: open an issue at the repo with your Discord user ID and request type. Mark urgent requests with “URGENT”.
+5. No Data Exfiltration
+   - Do not use Tango to collect or exfiltrate sensitive information (credentials, private keys, financial data, health records) without explicit, lawful consent.
 
-### Opt-in for improvements
-- By default, message content is not used externally.
-- Explicit per-server opt-in will be requested for anonymized samples used to improve moderation heuristics.
+6. Developer & Operational Policies
+   - Maintainers may disable features that cause instability, violate policy, or create legal risk. Feature rollout may be limited to reduce abuse.
 
-### Third parties and sharing
-- Tango will not sell your data.
-- Data may be shared only when required by law, to protect rights/safety, or with explicit opt-in.
-- Hosting/database providers used by the bot are expected to meet reasonable data protection standards.
+## Data collection, storage & GDPR (detailed)
+This section explains what data Tango may process, why, retention periods, and how we handle GDPR requests. These defaults may vary depending on hosting, region, or additional integrations.
 
----
+1. Types of data collected
+   - Identifiers: Discord server IDs, channel IDs, user IDs, and message IDs needed to perform features.
+   - Message content: Messages inspected or flagged by moderation or anti-spam features. Only stored when required for functionality.
+   - Usage logs: Command usage, timestamps, error logs, and aggregated analytics to monitor health and usage patterns.
+   - Optional content: When a server enables features that store custom data (welcome messages, custom command data), that content is stored per server.
 
-## Usage Policies (Acceptable Use)
-- Permitted:
-  - Moderation and logging on servers where the bot has permission.
-  - Server-level configuration of filters and retention within supported options.
-- Prohibited:
-  - Using Tango to collect data unrelated to moderation (advertising profiling).
-  - Sharing raw message contents with third parties without consent.
-  - Bypassing, tampering with, or disabling retention/deletion mechanisms.
+2. Purpose & lawful basis (GDPR)
+   - Purpose: Provide bot functionality, moderation, abuse prevention, diagnostics, and feature improvement.
+   - Lawful basis: processing is generally based on legitimate interests (maintaining service, preventing abuse) or consent where a user or server explicitly opts into a feature requiring extra data.
 
-Server owners must ensure they have the legal authority to run automated moderation tools in their community.
+3. Retention periods (default)
+   - Short-term logs (command and error logs): 30 days.
+   - Moderation evidence (messages, flagged content): 90 days unless legal reasons require longer retention.
+   - Backups and system snapshots: up to 180 days.
+   - Aggregated, anonymized analytics: may be retained indefinitely.
+   - Server-specific custom data: retained until removed by server owners or via deletion requests.
 
----
+4. Data storage & security
+   - Storage: Data is stored on the bot operator's hosting provider and may be processed in multiple regions depending on infrastructure.
+   - Security: Reasonable administrative, technical, and organizational measures (encryption in transit, access controls) are applied. No system is perfectly secure; contact us if you suspect a breach.
+   - Third parties: Some data may be processed by third-party services (hosting, analytics, crash-reporting). We use reputable providers and limit data shared to what is necessary.
 
-## Command Reference — Configuration & Moderation Examples
-Tango supports both slash and prefix-style commands depending on server configuration. Replace placeholders like #mod-logs or @Moderator with your server-specific names.
+5. Data sharing & legal disclosure
+   - We do not sell personal data. We may disclose data to comply with legal obligations, respond to lawful requests, or protect rights and safety.
 
-Core commands:
-- /tango help
-  - Usage: /tango help
-  - Description: Display help and command list.
+6. GDPR & EU data subject rights
+   - If you are in the EU, you have rights including access, rectification, erasure (right to be forgotten), restriction of processing, data portability, and objection to processing.
+   - To exercise your rights, contact support (see Contact below) and provide sufficient information (server ID, user ID, message IDs) to locate the data. We will respond within a reasonable timeframe and in accordance with applicable law (generally within 30 days).
+   - Some requests may be limited where legal exemptions apply (e.g., to retain data necessary for legal defense, compliance, or detection/prevention of abuse).
 
-- /tango status
-  - Usage: /tango status
-  - Description: Shows bot status, uptime, and current retention setting.
+## Moderation, enforcement & appeals
+1. Enforcement actions
+   - Actions include warnings, temporary or permanent removal of the bot from a server, or blocking a user from using the bot.
 
-- /tango config set retention <days>
-  - Example: /tango config set retention 14
-  - Description: Set message retention in days (default: 14). Note: changes apply to future stored messages; previously stored data follows its original retention schedule.
+2. How to appeal
+   - To appeal an action, contact support with:
+     - Your server ID and name
+     - A clear description of the issue and the action you are appealing
+     - Relevant timestamps and message IDs
+     - A preferred contact method
+   - Provide evidence where possible. Appeals are reviewed by maintainers; timelines may vary.
 
-- /tango config set logs_channel <#channel>
-  - Example: /tango config set logs_channel #mod-logs
-  - Description: Where moderation logs are posted.
+3. Reporting abuse
+   - To report abuse (illegal activity, CSAM, threats), provide message IDs, timestamps, and evidence. For emergencies or imminent threats, contact local law enforcement immediately.
 
-- /tango config filter add <type> [sensitivity]
-  - Example: /tango config filter add profanity high
-  - Description: Add a content filter (profanity, spam, links, invites) and optional sensitivity level.
-
-- /tango filter remove <type>
-  - Example: /tango filter remove invites
-  - Description: Remove a configured filter.
-
-Moderation actions (moderator-only):
-- /tango mod warn <@user> [reason]
-  - Example: /tango mod warn @troublemaker “Repeated profanity”
-  - Description: Issue a warning and log the event.
-
-- /tango mod mute <@user> <duration>
-  - Example: /tango mod mute @troublemaker 1h
-  - Description: Temporarily mute a user.
-
-- /tango mod ban <@user> [reason]
-  - Example: /tango mod ban @troll “Harassment”
-  - Description: Ban a user and log the reason.
-
-Audit & retrieval:
-- /tango audit fetch <messageID>
-  - Example: /tango audit fetch 123456789012345678
-  - Description: Retrieve moderation event details and stored message snippet (if within retention period).
-
-Logs & exports:
-- /tango logs export <start_date> <end_date>
-  - Example: /tango logs export 2025-10-01 2025-10-31
-  - Description: Export audit logs for a date range (server moderator only). Exports follow the same data minimization rules.
-
-Notes:
-- Only server moderators and administrators can change retention or export logs.
-- Commands may vary slightly depending on bot version and server configuration. Use /tango help or the bot’s command list to confirm exact syntax.
+## Contact
+For support, data requests, or appeals, contact: support@tango-bot.com
 
 ---
+This README is intended as a clear, practical summary and does not constitute legal advice. For jurisdiction-specific legal requirements (e.g., detailed GDPR compliance, CCPA, or other privacy laws) consult a qualified lawyer.
 
-## How to Request Data Access, Correction, or Deletion
-1. Open an issue: https://github.com/mediumwarrior67/Tango---Terms-Of-Service-Usage-Policies/issues
-2. Include:
-   - Discord user ID (required)
-   - Request type: access / delete / correct
-   - Any relevant dates or message IDs (if known)
-3. We will acknowledge and process the request in a timely manner. Urgent requests: mark the issue title with “URGENT”.
+![GDPR Compliance badge](imgs/gdpr_compliant-1024x429.png)
 
----
 
-## Admin Controls & Per-Server Settings
-- Server owners can configure filters, log channels, retention, and sensitivity through commands or the web dashboard (if available).
-- For per-server adjustments outside GUI/commands, contact the maintainer and include server ID and justification.
+## GDPR Notice
 
----
+This project aims to comply with the EU General Data Protection Regulation (GDPR). The section "Data collection, storage & GDPR (detailed)" above describes the types of data collected, purposes, lawful basis, retention periods, and EU data subject rights. Below is a short summary and how to exercise your rights:
 
-## Contact & Support
-Repository owner / bot maintainer: mediumwarrior67  
-Support & data requests: https://github.com/mediumwarrior67/Tango---Terms-Of-Service-Usage-Policies/issues
+- Data controller: the bot maintainer/operator (contact: support@tango-bot.com).
+- Data processed: identifiers (server, channel, user and message IDs), occasional message content for moderation/anti-spam features, command usage logs, and server-specific configuration data.
+- Legal basis: legitimate interests (service operation, abuse prevention) or consent for optional features that require extra data.
+- Exercising your rights: EU data subjects may request access, rectification, erasure, restriction, portability, or to object to processing. Provide server ID, user ID, and relevant message IDs where applicable. Requests will be handled in accordance with applicable law (generally within 30 days).
+- Requests & complaints: to make a data request or complaint, email support@tango-bot.com. If unsatisfied, you may contact your local Data Protection Authority.
 
----
+Note: Some requests may be limited where necessary to comply with legal obligations, ensure safety, or prevent abuse. For detailed GDPR compliance steps (data processing agreements, subprocessors, data transfer safeguards), consult a legal advisor or request more information from support.
 
-## Contributing & Responsible Disclosure
-Contributions, feature requests, and bug reports are welcome. When contributing examples or logs, remove/anonymize personal data unless you have permission. For privacy/security issues, open a “security” issue or contact the maintainer directly.
-
----
-
-## Changelog
-- 2025-11-06 — Updated policy language, added GDPR summary, clarified retention and commands.
-
----
-
-## License
-Choose a license (MIT, Apache-2.0, etc.) and include it here.
-```

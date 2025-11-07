@@ -19,3 +19,27 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+ADDITIONAL TERMS (SUPPLEMENTAL TO THE MIT LICENSE)
+
+The following supplemental terms are intended to operate alongside the MIT License above. To the extent any conflict arises between the MIT License text above and these supplemental terms, the MIT License governs the copyright and permission grant; however, these supplemental terms express the maintainers' expectations and requirements for future distributions, uses, and access to data and association with the Tango project.
+
+1) No Creative Commons relicensing
+   - This software and its associated assets (including source code, binaries, documentation, and images) may not be relicensed, republished, or distributed under any Creative Commons license. Redistributions must retain the MIT License header above and may not remove or replace it with a Creative Commons license.
+
+2) Prohibition on unauthorized data harvesting
+   - Use of this software to collect, harvest, exfiltrate, scrape, or otherwise obtain personal data, credentials, private keys, financial information, health records, or other sensitive personal information without lawful consent is strictly prohibited. This includes automated collection at scale for purposes not explicitly consented to by data owners. The maintainers reserve the right to take enforcement action if the software is used to facilitate unauthorized data collection.
+
+3) Tango family — Pulse & Vortex inclusion
+   - The "Pulse" and "Vortex" families (including any subprojects, forks, distributions, or variants that identify as Pulse or Vortex) are declared part of the Tango family of projects. By distributing or operating software under the Pulse or Vortex names, you agree that those distributions fall under Tango's Terms of Service, Usage Policies, and Privacy/Data rules as published in the project's documentation (for example, the project's `README.md` and policy documents).
+
+4) No automatic access to non-public data or copies
+   - Access to non-public data (including but not limited to server backups, exported user data, private logs, or other content stored or processed by the software) is not granted by the MIT license and is not freely available. Any request for access to such non-public data or to obtain copies of non-public or server-specific content must be made in writing to the data owner or controller and approved by the owner or controller before access or copies are provided.
+   - Maintainers and operators are under no obligation to provide copies of non-public content, and may require identity verification, proof of ownership/authority, and may charge a reasonable fee to cover administrative costs associated with fulfilling data access or export requests.
+   - This clause does not limit or modify the permission to copy, redistribute, or create derivative works for the public software source code itself to the extent permitted under the MIT License for copies lawfully obtained. It only addresses access to non-public data and owner-controlled copies which are outside the scope of the public software distribution.
+
+5) Enforcement and remedies
+   - The maintainers may enforce these supplemental terms by requiring corrective action, revoking access to hosted services, requesting takedowns of non-compliant distributions, or pursuing other remedies allowed by law. These supplemental terms do not retroactively revoke permissions already granted under the MIT License to copies lawfully obtained, but they set expectations for future access, redistribution that is associated with the Tango project brand, and handling of non-public data.
+
+6) Contact
+   - For questions about these supplemental terms, requests for exceptions, or compliance inquiries, contact the project maintainer(s) via the project's designated support channel (see repository README for contact details).
